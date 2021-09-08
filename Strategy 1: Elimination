@@ -1,0 +1,25 @@
+from utils import *
+
+def grid_values(grid):
+    """Convert grid string into {<box>: <value>} dict with '123456789' value for empties.
+
+    Args:
+        grid: Sudoku grid in string form, 81 characters long
+    Returns:
+        Sudoku grid in dictionary form:
+        - keys: Box labels, e.g. 'A1'
+        - values: Value in corresponding box, e.g. '8', or '123456789' if it is empty.
+    """
+    values = []
+  
+    for i in grid:
+        if i == '.':
+            values.append('123456789')
+        else:
+            values.append(i)            
+            
+    
+    assert len(values) == 81, "Input must be 81 characters"
+    Sudoku = dict(zip(boxes, values))# replace with your code
+    return(Sudoku)
+#for this soultion you can refer to Udacity: Introduction to Python Programming go to lesson 4 and watch 10 to 14 class 
