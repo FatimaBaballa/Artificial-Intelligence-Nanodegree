@@ -1,3 +1,4 @@
+# # Part 1: Improved grid_values()
 from utils import *
 
 # `grid` is defined in the test code scope as the following:
@@ -18,3 +19,8 @@ def grid_values(grid):
     Sudoku = dict(zip(boxes, grid))# replace with your code
     return(Sudoku)
 #for this soultion you can refer to Udacity: Introduction to Python Programming go to lesson 4 and watch 33 to 35 class 
+
+#-------------------------------------------------------------------
+# Part 2: Implement eliminate()
+
+
