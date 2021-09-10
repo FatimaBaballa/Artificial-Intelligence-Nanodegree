@@ -1,4 +1,4 @@
-# # Part 1: Improved grid_values()
+# # Encoding the Board
 from utils import *
 
 # `grid` is defined in the test code scope as the following:
@@ -20,8 +20,3 @@ def grid_values(grid):
     return(Sudoku)
 #for this soultion you can refer to Udacity: Introduction to Python Programming go to lesson 4 and watch 33 to 35 class 
 #also, lesson 5 and watch class number 2
-
-#-------------------------------------------------------------------
-# Part 2: Implement eliminate()
-
-
