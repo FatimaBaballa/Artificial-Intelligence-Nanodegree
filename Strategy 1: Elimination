@@ -1,3 +1,5 @@
+# # Part 1: Improved grid_values()
+
 from utils import *
 
 def grid_values(grid):
@@ -23,3 +25,8 @@ def grid_values(grid):
     Sudoku = dict(zip(boxes, values))# replace with your code
     return(Sudoku)
 #for this soultion you can refer to Udacity: Introduction to Python Programming go to lesson 4 and watch 10 to 14 class 
+#also, lesson 5 and watch class number 2
+
+#-------------------------------------------------------------------
+# Part 2: Implement eliminate()
+
